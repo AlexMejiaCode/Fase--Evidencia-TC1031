@@ -14,7 +14,7 @@ using std::vector;
 using std::pair;
 
 int main() {
-  std::ifstream inputFile("equipo5.csv");
+  std::ifstream inputFile("date_sorted_equipo5.csv");
 
   if (!inputFile.is_open()) {
       std::cout << "Error opening the file" << std::endl;
